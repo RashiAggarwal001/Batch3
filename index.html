@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
 <style>
+
 * {
   box-sizing: border-box;
-  padding: 15px;
+  padding: 6px;
 }
 .row {
-  display: flex;
+  display:flex;
+  display:grid
+ grid-template-columns: 1fr 1fr 1fr;  
+  grid-template-rows: 50px 50px;
+ 
   background-color:rgb(179, 227, 243);
   border-radius: 20px;
 }
-.column {
-  flex: 50%;
-}
+
 
 .name {
- font-size: 50px;
+ font-size: 40px;
 }
+
+
 
 </style>
 </head>
